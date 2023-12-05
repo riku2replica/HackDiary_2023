@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DiaryBase</name>
+    </assembly>
+    <members>
+        <member name="T:DiaryBase.DetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DiaryBase.DetailViewModel.Text">
+            <inheritdoc cref="F:DiaryBase.DetailViewModel.text"/>
+        </member>
+        <member name="F:DiaryBase.DetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:DiaryBase.DetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:DiaryBase.DetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DiaryBase.DetailViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:DiaryBase.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:DiaryBase.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:DiaryBase.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:DiaryBase.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DiaryBase.MainViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:DiaryBase.MainViewModel.tapCommand">
+            <summary>The backing field for <see cref="P:DiaryBase.MainViewModel.TapCommand"/>.</summary>
+        </member>
+        <member name="P:DiaryBase.MainViewModel.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DiaryBase.MainViewModel.Tap"/>.</summary>
+        </member>
+        <member name="F:DiaryBase.MainViewModel.firstCommand">
+            <summary>The backing field for <see cref="P:DiaryBase.MainViewModel.FirstCommand"/>.</summary>
+        </member>
+        <member name="P:DiaryBase.MainViewModel.FirstCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DiaryBase.MainViewModel.First"/>.</summary>
+        </member>
+        <member name="F:DiaryBase.MainViewModel.lastCommand">
+            <summary>The backing field for <see cref="P:DiaryBase.MainViewModel.LastCommand"/>.</summary>
+        </member>
+        <member name="P:DiaryBase.MainViewModel.LastCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DiaryBase.MainViewModel.Last"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Text">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Text" generated properties.</summary>
+        </member>
+    </members>
+</doc>
